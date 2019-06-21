@@ -1,5 +1,3 @@
-import UsersList from './UsersList';
-
 class App extends React.Component {
     constructor() {
       super();
