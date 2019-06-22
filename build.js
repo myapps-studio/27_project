@@ -136,7 +136,3 @@ var UsersList = function (_React$Component3) {
 }(React.Component);
 
 ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
-
-ReactDOM.render(React.createElement(User, null), document.getElementById('root'));
-
-ReactDOM.render(React.createElement(UsersList, null), document.getElementById('root'));

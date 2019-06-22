@@ -68,15 +68,3 @@
     document.getElementById('root')
   );
 
-  ReactDOM.render(
-    <User />,
-    document.getElementById('root')
-  );
-
-  ReactDOM.render(
-    <UsersList />,
-    document.getElementById('root')
-  );
-
-
-  
