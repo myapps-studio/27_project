@@ -77,8 +77,6 @@ var App = function (_React$Component) {
   return App;
 }(React.Component);
 
-ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
-
 var User = function (_React$Component2) {
   _inherits(User, _React$Component2);
 
@@ -106,8 +104,6 @@ var User = function (_React$Component2) {
 
   return User;
 }(React.Component);
-
-ReactDOM.render(React.createElement(User, null), document.getElementById('root'));
 
 var UsersList = function (_React$Component3) {
   _inherits(UsersList, _React$Component3);
@@ -138,5 +134,9 @@ var UsersList = function (_React$Component3) {
 
   return UsersList;
 }(React.Component);
+
+ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
+
+ReactDOM.render(React.createElement(User, null), document.getElementById('root'));
 
 ReactDOM.render(React.createElement(UsersList, null), document.getElementById('root'));

@@ -38,11 +38,6 @@
     }
   }
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-  );
-
   class User extends React.Component {
     render() {
       return (
@@ -53,11 +48,6 @@ ReactDOM.render(
       );
     }
   }
-
-  ReactDOM.render(
-    <User />,
-    document.getElementById('root')
-  );
 
   class UsersList extends React.Component {
     get users() {
@@ -72,6 +62,16 @@ ReactDOM.render(
       );
     }
   }
+
+  ReactDOM.render(
+    <App />,
+    document.getElementById('root')
+  );
+
+  ReactDOM.render(
+    <User />,
+    document.getElementById('root')
+  );
 
   ReactDOM.render(
     <UsersList />,
